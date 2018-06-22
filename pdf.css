@@ -1,0 +1,162 @@
+button {
+height:30px;
+width:60px;
+border-radius:5px;
+color:green;
+}
+#logo {
+height:80px;
+width:100px;
+margin:0px 0px;
+border-radius:5px;
+background-color:green;
+    background-image: url("../images/b.jpg");
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #efefef;
+}
+
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+  background: #efefef;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: green;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: red;
+    color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #efefef;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.img {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+.img1 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/b.jpg");
+background-repeat:  no-repeat;
+}
+.img2 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/b.jpg");
+background-repeat:  no-repeat;
+}
+.img3 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/b.jpg");
+background-repeat:  no-repeat;
+}
+.img4 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/b.jpg");
+background-repeat:  no-repeat;
+}
+.img5 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/b.jpg");
+background-repeat:  no-repeat;
+}
+.img6 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    background-image: url("../images/b.jpg");
+background-repeat:  no-repeat;
+}
+/* Add a card effect for articles */
+.card {
+    background-color: #efefef;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+background: #efefef;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
